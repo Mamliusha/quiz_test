@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Inter&display=swap"
+        rel="stylesheet">
+        <link href="quiz.css" rel="stylesheet">
+</head>
+<style>
+
+</style>
+
+<body>
+    <main>
+        <div id="text">
+            <h1>Подберём вуз мечты</h1>
+            <h3>Ответьте на 8 простых вопросов, и мы составим список наболее подходящих для вас вузов</h3>
+            <img src="./Group 1593.png" alt="search_icon">
+        </div>
+        <div id="quiz">
+            <div id="questionsNum">
+                <p id="question">Для кого вы ищете учебное заведение?</p>
+                <p id="page_num">Шаг1/9</p>
+            </div>
+            <div id="options">
+                <div id="option1" class="option">Себе<input type="radio" id="radio" name="options" checked></div>
+                <div id="option1" class="option">Супругу/Супруге<input type="radio" name="options"></div>
+                <div id="option1" class="option">Родственнику<input type="radio" name="options"></div>
+                <div id="option1" class="option">Коллеге<input type="radio" name="options"></div>
+                <div id="option1" class="option">Ребенку<input type="radio" name="options"></div>
+                <div id="option1" class="option">Другое<input type="radio" name="options"></div>
+            </div>
+            <button onclick="ToProceed()" id="Next1">Далее ></button>
+
+        </div>
+    </main>
+    <script src="quiz.js"></script>
+</body>
+
+</html>

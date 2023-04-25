@@ -1,0 +1,183 @@
+@font-face {
+    font-family: "Onest-Regular";
+    src: url("/TTF/Onest-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+h3,
+button,
+#questionsNum,
+#options,
+#CitiesPicked,
+p,
+div {
+    font-size: 16px;
+    font-family: 'Onest-Regular';
+    font-weight: 400;
+}
+
+h3 {
+    width: 400px;
+}
+
+h1 {
+    font-family: 'Onest-Regular';
+    font-size: 32px;
+    font-weight: 500;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 456px;
+    width: 1216px;
+    background-color: #CAFFA0;
+    padding: 32px;
+}
+
+img {
+    width: 356px;
+    height: 212.62px;
+}
+
+#text {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+#quiz {
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    background-color: white;
+    width: 576px;
+    height: 392px;
+    border-radius: 24px;
+    padding: 32px;
+}
+
+button {
+    justify-self: end;
+    align-self: end;
+    height: 44px;
+    width: 108px;
+    border-radius: 12px;
+    background-color: #383838;
+    border: none;
+    color: white;
+}
+.backButton{
+    background-color: white;
+    color: black;
+    border: 1px solid #D8D8D8;
+}
+
+#questionsNum {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    width: 100%;
+}
+
+#page_num {
+    justify-self: end;
+    color: #9B9B9B;
+}
+
+#question {
+    font-weight: 500;
+}
+
+#options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 8px;
+}
+
+.options4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 8px;
+
+}
+
+
+#option2 {
+    width: 512px;
+    height: 52px;
+    background-color: #D8D8D8;
+    padding: 8px;
+    border-radius: 16px;
+    align-content: center;
+}
+
+#name_input,
+#tel_input,
+#email_input,
+#submit {
+    background-color: #D8D8D8;
+    border-radius: 16px;
+    width: 512px;
+    height: 56px;
+    justify-self: center;
+    border: none;
+}
+
+#submit {
+    background-color: #383838;
+}
+
+.option {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 252px;
+    height: 56px;
+    background-color: #D8D8D8;
+    padding: 8px;
+    border-radius: 16px;
+    align-content: center;
+}
+
+#name_input,
+#tel_input,
+#email_input,
+#option2:hover {
+    background-color: white;
+    border: 1px solid black;
+}
+
+input {
+    justify-self: end;
+}
+
+.option:hover {
+    background-color: white;
+    border: 1px solid black;
+}
+
+#cities {
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+
+#citySearch {
+    height: 56px;
+    width: 512px;
+    border-radius: 16px;
+    padding: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#Back1 {
+    justify-self: start;
+}
+
+form {
+    width: 512px;
+}
