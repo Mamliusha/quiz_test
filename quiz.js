@@ -45,11 +45,8 @@ function goBack(){
 <p id="selectedOption"></p>
 </div>
 <button onclick="ToProceed()" id="Next1">Далее ></button>
-<button onclick="Checkme()" id="Next1">//// ></button>
 `
-}
-function Checkme(){
-    let selectedOption = localStorage.getItem("selectedOption");
+let selectedOption = localStorage.getItem("selectedOption");
     console.log(selectedOption);
 if (selectedOption !== null) {
   let radioButtons = document.getElementsByClassName("option");
@@ -64,9 +61,8 @@ if (selectedOption !== null) {
   if (allMatch) {
     console.log("All options match selected option");
   }
+}    
 }
-}
-
 
 function updateCheckbox() {
     var selectBox = document.getElementById("citySearch");
